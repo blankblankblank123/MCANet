@@ -12,7 +12,11 @@ Implement of Multi Co-Attention Network(MCANet)
 &nbsp;
 &nbsp;
 ## Installation
-
+- Clone this repository.
+- Python 2.7
+- [PyTorch](http://pytorch.org/) 0.4.1 
+- Packages: `numpy`,`opencv-python`,`matplotlib`,`glob`
+- Datasets: follow the [instructions](#Datasets)
 ## Datasets
 
 ## Model
