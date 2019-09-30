@@ -63,19 +63,7 @@ usage: python
         <th>Mean IoU</th>
         <th>FreqW IoU</th>
     </tr>
-    <tr>
-        <td rowspan="4">
-            <i>trainaug</i><br>
-            (<a href='https://drive.google.com/file/d/1FaW2Sp7Jj3eaoyZtbabM1IWZnuScN-u6/view?usp=sharing'>Model</a>)
-        </td>
-        <td rowspan="4"><i>val</i></td>
-        <td rowspan="2"></td>
-        <td>Original [<a href="#references">3</a>]</td>
-        <td>-</td>
-        <td>-</td>
-        <td><strong>76.35</strong></td>
-        <td>-</td>
-    </tr>
+
 
 </table>
 ## Todo
