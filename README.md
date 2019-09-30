@@ -54,13 +54,23 @@ usage: python
 ## Performance
 <table>
     <tr>
-        <th>    </th>
-        <th>VOC10</th>
-        <th>Internet</th>
-        <th>MSRC</th>
-        <th>iCoseg</th>
+        <th>Dataset</th>
+        <th colspan:"2">VOC10</th>
+        <th colspan:"2">Internet</th>
+        <th colspan:"2">MSRC</th>
+        <th colspan:"2">iCoseg</th>
     </tr>
-
+    <tr>
+        <th> Metric</th>
+        <th>P</th>
+        <th>J</th>
+        <th>P</th>
+        <th>J</th>
+        <th>P</th>
+        <th>J</th>
+        <th>P</th>
+        <th>J</th>
+    </tr>
 
 </table>
 
