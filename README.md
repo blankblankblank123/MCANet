@@ -1,5 +1,5 @@
 # MCANet_CVPR2020_submit
-Implement of Multi Co-Attention Network(MCANet) to solve Object Co-segmentation.
+Implementation of Multi Co-Attention Network(MCANet) to solve Object Co-segmentation.
 
 ### Table of Contents
 - <a href='#Installation'>Installation</a>
@@ -30,7 +30,12 @@ This dataset encompasses 14 image groups with 410 images, each group contains co
 There are 38 categories in [iCoseg dataset](https://www.cc.gatech.edu/~dbatra/papers/bkpcl_cvpr10.pdf) with totally 643 images. Each category composes images containing foreground with limited intra-class variability.This dataset can be downloaded [here](http://people.csail.mit.edu/mrub/ObjectDiscovery/ObjectDiscovery-data.zip).
 
 ## Model
+- MCANet architecture
 <img align="left" src= "https://github.com/blankblankblank123/MCANet_CVPR2020_submit/blob/master/doc/model.PNG">
+The implement of MCANet
+- Implementation [here](123)
+- the codes of resnet101 and ASPP layer are copied from [here](https://github.com/kazuto1011/deeplab-pytorch)
+- 
 ## Demos
 
 ## Evaluation
