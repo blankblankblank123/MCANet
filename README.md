@@ -52,7 +52,53 @@ usage: python
 ```
 
 ## Performance
-
+<table>
+    <tr>
+        <th>Train set</th>
+        <th>Eval set</th>
+        <th>CRF?</th>
+        <th>Code</th>
+        <th>Pixel<br>Accuracy</th>
+        <th>Mean<br>Accuracy</th>
+        <th>Mean IoU</th>
+        <th>FreqW IoU</th>
+    </tr>
+    <tr>
+        <td rowspan="4">
+            <i>trainaug</i><br>
+            (<a href='https://drive.google.com/file/d/1FaW2Sp7Jj3eaoyZtbabM1IWZnuScN-u6/view?usp=sharing'>Model</a>)
+        </td>
+        <td rowspan="4"><i>val</i></td>
+        <td rowspan="2"></td>
+        <td>Original [<a href="#references">3</a>]</td>
+        <td>-</td>
+        <td>-</td>
+        <td><strong>76.35</strong></td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>Ours</td>
+        <td>94.64</td>
+        <td>86.50</td>
+        <td><strong>76.65</td>
+        <td>90.41</td>
+    </tr>
+    <tr>
+        <td rowspan="2">&#10003;</td>
+        <td>Original [<a href="#references">3</a>]</td>
+        <td>-</td>
+        <td>-</td>
+        <td><strong>77.69</strong></td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>Ours</td>
+        <td>95.04</td>
+        <td>86.64</td>
+        <td><strong>77.93</strong></td>
+        <td>91.06</td>
+    </tr>
+</table>
 ## Todo
 - Release training code
 - Release the test code on iCoseg
