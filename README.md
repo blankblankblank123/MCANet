@@ -56,9 +56,9 @@ usage: python
     <tr>
         <th>Dataset</th>
         <td colspan="2">VOC10</td>
-        <td colspan:"2">Internet</td>
-        <td colspan:"2">MSRC</td>
-        <td colspan:"2">iCoseg</td>
+        <td colspan="2">Internet</td>
+        <td colspan="2">MSRC</td>
+        <td colspan="2">iCoseg</td>
     </tr>
     <tr>
         <th> Metric</th>
