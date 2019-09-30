@@ -31,7 +31,6 @@ There are 38 categories in [iCoseg dataset](https://www.cc.gatech.edu/~dbatra/pa
 
 ## Model
 - MCANet architecture
-<img align="left" src= "https://github.com/blankblankblank123/MCANet_CVPR2020_submit/blob/master/doc/model.PNG">
 - Implementation [here](123)
 - the codes of resnet101 and ASPP layer are copied from [here](https://github.com/kazuto1011/deeplab-pytorch)
 - 123
