@@ -36,6 +36,7 @@ There are 38 categories in [iCoseg dataset](https://www.cc.gatech.edu/~dbatra/pa
 - download pretrained MCANet weights at 123
 
 <img align="left" src= "https://github.com/blankblankblank123/MCANet_CVPR2020_submit/blob/master/doc/model.PNG">
+
 ## Demos
 ```
 python demo.py
