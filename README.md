@@ -29,6 +29,8 @@ This dataset encompasses 14 image groups with 410 images, each group contains co
 ### iCoseg
 There are 38 categories in [iCoseg dataset](https://www.cc.gatech.edu/~dbatra/papers/bkpcl_cvpr10.pdf) with totally 643 images. Each category composes images containing foreground with limited intra-class variability.This dataset can be downloaded [here](http://people.csail.mit.edu/mrub/ObjectDiscovery/ObjectDiscovery-data.zip).
 
+## Model
+<img align="left" src= "https://github.com/amdegroot/ssd.pytorch/blob/master/doc/detection_examples.png">
 ## Demos
 
 ## Evaluation
