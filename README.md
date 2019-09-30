@@ -68,12 +68,9 @@ Usage: python eval_vis_voc_group.py | eval_vis_internet_group.py | eval_vis_msrc
         <td colspan="2">VOC10</td>
         <td colspan="2">Internet</td>
         <td colspan="2">MSRC</td>
-        <td colspan="2">iCoseg</td>
     </tr>
     <tr>
         <th> Metric</th>
-        <th>P</th>
-        <th>J</th>
         <th>P</th>
         <th>J</th>
         <th>P</th>
@@ -89,8 +86,6 @@ Usage: python eval_vis_voc_group.py | eval_vis_internet_group.py | eval_vis_msrc
         <th>74.3</th>
         <th>90.5</th>
         <th>74.4</th>
-        <th>94.0</th>
-        <th>77.2</th>
     </tr>
    
 </table>
