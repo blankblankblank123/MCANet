@@ -76,28 +76,7 @@ usage: python
         <td><strong>76.35</strong></td>
         <td>-</td>
     </tr>
-    <tr>
-        <td>Ours</td>
-        <td>94.64</td>
-        <td>86.50</td>
-        <td><strong>76.65</td>
-        <td>90.41</td>
-    </tr>
-    <tr>
-        <td rowspan="2">&#10003;</td>
-        <td>Original [<a href="#references">3</a>]</td>
-        <td>-</td>
-        <td>-</td>
-        <td><strong>77.69</strong></td>
-        <td>-</td>
-    </tr>
-    <tr>
-        <td>Ours</td>
-        <td>95.04</td>
-        <td>86.64</td>
-        <td><strong>77.93</strong></td>
-        <td>91.06</td>
-    </tr>
+
 </table>
 ## Todo
 - Release training code
