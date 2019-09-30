@@ -39,7 +39,7 @@ There are 38 categories in [iCoseg dataset](https://www.cc.gatech.edu/~dbatra/pa
 
 ## Demos
 ```
-python demo.py
+Usage: python demo.py
 ```
 Input with multi-classes [demo images](https://github.com/blankblankblank123/MCANet_CVPR2020_submit/tree/master/demo_images), output with grouped images. The result visualization can be seen [here](https://github.com/blankblankblank123/MCANet_CVPR2020_submit/tree/master/result/demo).
 
@@ -58,7 +58,7 @@ Metric:
 - Precision
 
 ```
-usage: python 
+Usage: python eval_vis_voc_group.py | eval_vis_internet_group.py | eval_vis_msrc_group.py
 ```
 
 ## Performance
