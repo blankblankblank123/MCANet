@@ -71,7 +71,18 @@ usage: python
         <th>P</th>
         <th>J</th>
     </tr>
-
+    <tr>
+        <th> MCANet</th>
+        <th>93.5</th>
+        <th>64.2</th>
+        <th>93.6</th>
+        <th>74.3</th>
+        <th>90.5</th>
+        <th>74.4</th>
+        <th>94.0</th>
+        <th>77.2</th>
+    </tr>
+   
 </table>
 
 ## Todo
