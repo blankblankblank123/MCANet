@@ -55,10 +55,10 @@ usage: python
 <table>
     <tr>
         <th>Dataset</th>
-        <th colspan:"2">VOC10</th>
-        <th colspan:"2">Internet</th>
-        <th colspan:"2">MSRC</th>
-        <th colspan:"2">iCoseg</th>
+        <td colspan="2">VOC10</td>
+        <td colspan:"2">Internet</td>
+        <td colspan:"2">MSRC</td>
+        <td colspan:"2">iCoseg</td>
     </tr>
     <tr>
         <th> Metric</th>
