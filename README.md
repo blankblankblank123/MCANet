@@ -54,18 +54,16 @@ usage: python
 ## Performance
 <table>
     <tr>
-        <th>Train set</th>
-        <th>Eval set</th>
-        <th>CRF?</th>
-        <th>Code</th>
-        <th>Pixel<br>Accuracy</th>
-        <th>Mean<br>Accuracy</th>
-        <th>Mean IoU</th>
-        <th>FreqW IoU</th>
+        <th>    </th>
+        <th>VOC10</th>
+        <th>Internet</th>
+        <th>MSRC</th>
+        <th>iCoseg</th>
     </tr>
 
 
 </table>
+
 ## Todo
 - Release training code
 - Release the test code on iCoseg
