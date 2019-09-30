@@ -41,7 +41,9 @@ There are 38 categories in [iCoseg dataset](https://www.cc.gatech.edu/~dbatra/pa
 ```
 python demo.py
 ```
-Input with multi-classes images in 123, output with grouped images. The result can be seen in 123.
+Input with multi-classes [images](123), output with grouped images. The result can be seen [here](123).
+
+
 ## Evaluation
 Metric:
 - Jaccard
