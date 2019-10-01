@@ -1,4 +1,4 @@
-# MCANet_CVPR2020_submit
+# MCANet_CVPR2020
 Implementation of Multi Co-Attention Network(MCANet) to solve Object Co-segmentation.
 
 ### Table of Contents
