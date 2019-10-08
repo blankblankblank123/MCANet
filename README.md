@@ -21,7 +21,7 @@ Implementation of Multi Co-Attention Network(MCANet) to solve Object Co-segmenta
 Four OCS benchmark datasets are used for evaluating the performance of our proposed MACNet.
 
 ### VOC10
-Collected by Faktor and Irani([paper](https://www.cv-foundation.org/openaccess/content_iccv_2013/papers/Faktor_Co-segmentation_by_Composition_2013_ICCV_paper.pdf)), this dataset contains 1,037 images of 20 object classes, and it is the most challenging dataset in the experiment due to extreme intra-class variability, subtle foreground/background discrimination, and class imbalance. [Download Link](123).
+Collected by Faktor and Irani([paper](https://www.cv-foundation.org/openaccess/content_iccv_2013/papers/Faktor_Co-segmentation_by_Composition_2013_ICCV_paper.pdf)), this dataset contains 1,037 images of 20 object classes, and it is the most challenging dataset in the experiment due to extreme intra-class variability, subtle foreground/background discrimination, and class imbalance. [Download Link](https://drive.google.com/open?id=1V7YRZafySYOPtZ4WiwqM6pUnjc_8TAH7).
 ### Internet
 Introduced by [paper](http://people.csail.mit.edu/mrub/ObjectDiscovery/), this dataset encloses images with three common object classes. This dataset raises the particular challenge of noisy outliers, such that images with no common object exist in the dataset. [Download Link](http://people.csail.mit.edu/mrub/ObjectDiscovery/ObjectDiscovery-data.zip).
 ### MSRC
@@ -33,7 +33,7 @@ There are 38 categories in [iCoseg dataset](https://www.cc.gatech.edu/~dbatra/pa
    
 - [Implementation](https://github.com/blankblankblank123/MCANet_CVPR2020_submit/tree/master/libs/models)
 - the codes of resnet101 and ASPP layer are copied from [this work](https://github.com/kazuto1011/deeplab-pytorch)
-- download pretrained MCANet weights at 123
+- download pretrained MCANet weights at https://drive.google.com/open?id=1tyM2tJ_LhfCmI3rsliciLidfHk5ploKc
 
 <img align="left" src= "https://github.com/blankblankblank123/MCANet_CVPR2020_submit/blob/master/doc/model.PNG">
 
