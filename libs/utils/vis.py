@@ -14,7 +14,7 @@ def vis(img_,labels,alpha):
 
 	_,binary_out = cv2.threshold(((labels*255).astype(np.float32)),127,255,cv2.THRESH_BINARY)
 
-	_,contours,hierarch=cv2.findContours(binary_out.astype(np.uint8),cv2.RETR_TREE,cv2.CHAIN_APPROX_NONE)
+	contours,hierarch=cv2.findContours(binary_out.astype(np.uint8),cv2.RETR_TREE,cv2.CHAIN_APPROX_NONE)
 
 	pd=cv2.drawContours(pd,contours,-1,(0,0,255),5)
 	return pd
