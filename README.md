@@ -281,9 +281,8 @@ Usage: python eval_vis_voc_group.py | eval_vis_internet_group.py | eval_vis_msrc
         <th>J</th>
         <th>P</th>
         <th>J</th>
-
     </tr>
-       <tr>
+    <tr>
         <th> MCANet</th>
         <th>90.6</th>
         <th>78.1</th>
