@@ -107,7 +107,8 @@ for one_dir in image_dir_list:
 
 	score = scores(gts, preds, n_class=2)
 	print(one_class_name)
-	print(score)
+	print('jaccard: ' + str(score['Class IoU'][1]))
+	print('precision: ' + str(score['Pixel Accuracy']))
 	score_list.append(score)
 
 iou_list = [one['Class IoU'][1] for one in score_list]
