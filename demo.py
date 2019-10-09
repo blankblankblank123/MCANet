@@ -66,8 +66,6 @@ image_list1 = [image_list[i] for i in range(len(y_pred)) if y_pred[i] == 0]
 image_list2 = [image_list[i] for i in range(len(y_pred)) if y_pred[i] == 1]
 image_list3 = [image_list[i] for i in range(len(y_pred)) if y_pred[i] == 2]
 
-print(len(image_list1),len(image_list2),len(image_list3))
-
 
 
 image_list_list = [image_list1,image_list2,image_list3]
