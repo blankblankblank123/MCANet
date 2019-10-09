@@ -8,7 +8,6 @@ Implementation of Multi Co-Attention Network(MCANet) to solve Object Co-segmenta
 - <a href='#Demos'>Demos</a>
 - <a href='#Evaluation'>Evaluation</a>
 - <a href='#Performance'>Performance</a>
-- <a href='#Todo'>Todo</a>
 &nbsp;
 &nbsp;
 ## Installation
@@ -81,16 +80,12 @@ Usage: python eval_vis_voc_group.py | eval_vis_internet_group.py | eval_vis_msrc
     <tr>
         <th> MCANet</th>
         <th>93.5</th>
-        <th>64.2</th>
-        <th>93.6</th>
-        <th>74.3</th>
-        <th>90.5</th>
-        <th>74.4</th>
+        <th>63.7</th>
+        <th>94.2</th>
+        <th>74.8</th>
+        <th>90.1</th>
+        <th>73.5</th>
     </tr>
    
 </table>
 
-## Todo
-- Release training code
-- Release the test code on iCoseg
-- Optimize code comments
