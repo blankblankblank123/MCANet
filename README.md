@@ -61,6 +61,7 @@ Usage: python eval_vis_voc_group.py | eval_vis_internet_group.py | eval_vis_msrc
 ```
 
 ## Performance
+- average
 <table>
     <tr>
         <th>Dataset</th>
@@ -89,3 +90,48 @@ Usage: python eval_vis_voc_group.py | eval_vis_internet_group.py | eval_vis_msrc
    
 </table>
 
+-voc10
+<table>
+    <tr>
+        <th> Class</th>
+        <th>A.P.</th>
+        <th>Bike.</th>
+        <th>Bird</th>
+        <th>Boat</th>
+        <th>Bottle</th>
+        <th>Bus.</th>
+        <th>Car</th>
+        <th>Cat</th>
+        <th>Chair</th>
+        <th>Cow</th>
+        <th>D.T.</th>
+        <th>Dog</th>
+        <th>Horse</th>
+        <th>M.B.</th>
+        <th>P.S.</th>
+        <th>P.P.</th>
+        <th>Sheep</th>
+        <th>Sofa</th>
+        <th>Train</th>
+        <th>TV</th>
+    </tr>
+    <tr>
+        <th> Metric</th>
+        <th>P</th>
+        <th>J</th>
+        <th>P</th>
+        <th>J</th>
+        <th>P</th>
+        <th>J</th>
+    </tr>
+    <tr>
+        <th> MCANet</th>
+        <th>93.5</th>
+        <th>63.7</th>
+        <th>94.2</th>
+        <th>74.8</th>
+        <th>90.1</th>
+        <th>73.5</th>
+    </tr>
+   
+</table>
