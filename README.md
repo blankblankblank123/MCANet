@@ -90,7 +90,7 @@ Usage: python eval_vis_voc_group.py | eval_vis_internet_group.py | eval_vis_msrc
    
 </table>
 
--voc10
+- voc10
 <table>
     <tr>
         <th> Class</th>
@@ -160,12 +160,46 @@ Usage: python eval_vis_voc_group.py | eval_vis_internet_group.py | eval_vis_msrc
     </tr>
     <tr>
         <th> MCANet</th>
-        <th>93.5</th>
-        <th>63.7</th>
-        <th>94.2</th>
-        <th>74.8</th>
-        <th>90.1</th>
-        <th>73.5</th>
+        <th>97.2</th>
+        <th>77.9</th>
+        <th>90.7</th>
+        <th>13.1</th>
+        <th>96.6</th>
+        <th>73.1</th>
+        <th>95.9</th>
+        <th>71.8</th>
+        <th>94.6</th>
+        <th>72.1</th>
+        <th>94.5</th>
+        <th>84.2</th>
+        <th>95.3</th>
+        <th>82.0</th>
+        <th>95.0</th>
+        <th>77.8</th>
+        <th>89.7</th>
+        <th>39.2</th>
+        <th>95.8</th>
+        <th>78.4</th>
+        <th>86.6</th>
+        <th>15.7</th>
+        <th>95.3</th>
+        <th>72.1</th>
+        <th>94.7</th>
+        <th>73.3</th>
+        <th>92.9</th>
+        <th>69.7</th>
+        <th>93.7</th>
+        <th>56.1</th>
+        <th>92.1</th>
+        <th>51.5</th>
+        <th>93.7</th>
+        <th>72.3</th>
+        <th>88.8</th>
+        <th>49.5</th>
+        <th>95.3</th>
+        <th>79.6</th>
+        <th>91.6</th>
+        <th>64.5</th>
     </tr>
    
 </table>
