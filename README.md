@@ -33,7 +33,7 @@ There are 38 categories in [iCoseg dataset](https://www.cc.gatech.edu/~dbatra/pa
 - [Implementation](https://github.com/blankblankblank123/MCANet_CVPR2020_submit/tree/master/libs/models)
 - the codes of resnet101 and ASPP layer are copied from [this work](https://github.com/kazuto1011/deeplab-pytorch)
 - download pretrained MCANet weights at [here](https://drive.google.com/open?id=1tyM2tJ_LhfCmI3rsliciLidfHk5ploKc)
-
+- Note: Training code will be released after our submission is accepted. 
 <img align="left" src= "https://github.com/blankblankblank123/MCANet_CVPR2020_submit/blob/master/doc/model.PNG">
 
 ## Demos
