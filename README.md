@@ -231,3 +231,87 @@ Usage: python eval_vis_voc_group.py | eval_vis_internet_group.py | eval_vis_msrc
         <th>67.1</th>
     </tr>
    </table>
+
+- MSRC
+<table>
+    <tr>
+        <th> Class</th>
+        <th colspan="2">house</th>
+        <th colspan="2">plane</th>
+        <th colspan="2">bike</th>
+        <th colspan="2">bird</th>
+        <th colspan="2">dog</th>
+        <th colspan="2">sign</th>
+        <th colspan="2">tree</th>
+        <th colspan="2">chair</th>
+        <th colspan="2">face</th>
+        <th colspan="2">flower</th>
+        <th colspan="2">car</th>
+        <th colspan="2">sheep</th>
+        <th colspan="2">cow</th>
+        <th colspan="2">cat</th>
+    </tr>
+    <tr>
+        <th> Metric</th>
+        <th>P</th>
+        <th>J</th>
+        <th>P</th>
+        <th>J</th>
+        <th>P</th>
+        <th>J</th>
+        <th>P</th>
+        <th>J</th>
+        <th>P</th>
+        <th>J</th>
+        <th>P</th>
+        <th>J</th>
+        <th>P</th>
+        <th>J</th>
+        <th>P</th>
+        <th>J</th>
+        <th>P</th>
+        <th>J</th>
+        <th>P</th>
+        <th>J</th>
+        <th>P</th>
+        <th>J</th>
+        <th>P</th>
+        <th>J</th>
+        <th>P</th>
+        <th>J</th>
+        <th>P</th>
+        <th>J</th>
+
+    </tr>
+       <tr>
+        <th> MCANet</th>
+        <th>90.6</th>
+        <th>78.1</th>
+        <th>94.6</th>
+        <th>74.3</th>
+        <th>75.4</th>
+        <th>49.8</th>
+        <th>96.5</th>
+        <th>78.5</th>
+        <th>95.6</th>
+        <th>82.5</th>
+        <th>95.0</th>
+        <th>86.4</th>
+        <th>66.7</th>
+        <th>35.4</th>
+        <th>90.8</th>
+        <th>67.5</th>
+        <th>87.7</th>
+        <th>67.7</th>
+        <th>91.8</th>
+        <th>80.3</th>
+        <th>91.5</th>
+        <th>81.2</th>
+        <th>95.4</th>
+        <th>84.3</th>
+        <th>94.6</th>
+        <th>80.7</th>
+        <th>95.2</th>
+        <th>82.5</th>
+    </tr>
+   </table>
