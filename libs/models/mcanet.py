@@ -72,10 +72,10 @@ class MCANet_Infer(nn.Module):
             x = self.encoder(x)
             Fe_list.append(x.cpu())
             x = self.relu(self.base_conv(x))
-            # x_ = self.gap(x)
-            # x_ = torch.sigmoid(self.FC_I(x_))
+            x_ = self.gap(x)
+            x_ = torch.sigmoid(self.FC_I(x_))
             F_list.append(x.cpu())
-            # CI_list.append(x_.cpu())
+            CI_list.append(x_.cpu())
 
         CI = torch.cat(F_list,dim = 0)
         CIG = torch.mean(CI,dim = 0,keepdim = True).cuda()
@@ -108,12 +108,11 @@ class MCANet_Infer(nn.Module):
         CP_list = []
         for FCS in FCS_list:
             CP = self.gap(FCS)
-            # CP = torch.sigmoid(self.FC_P(CP.cuda()))
             CP_list.append(CP.cpu())
 
         b_array = torch.cat(b_list,dim = 0)
         _,ind = torch.sort(b_array,dim = 0,descending = True)
-        ind = ind.numpy()[:int(0.1 * (ind.shape[0]))].reshape(-1).tolist()
+        ind = ind.numpy()[:int(max(1,0.1 * (ind.shape[0])))].reshape(-1).tolist()
 
         CP_list = [CP_list[i] for i in ind]
         CP_array = torch.cat(CP_list,dim = 0)
