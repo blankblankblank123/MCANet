@@ -94,29 +94,63 @@ Usage: python eval_vis_voc_group.py | eval_vis_internet_group.py | eval_vis_msrc
 <table>
     <tr>
         <th> Class</th>
-        <th>A.P.</th>
-        <th>Bike.</th>
-        <th>Bird</th>
-        <th>Boat</th>
-        <th>Bottle</th>
-        <th>Bus.</th>
-        <th>Car</th>
-        <th>Cat</th>
-        <th>Chair</th>
-        <th>Cow</th>
-        <th>D.T.</th>
-        <th>Dog</th>
-        <th>Horse</th>
-        <th>M.B.</th>
-        <th>P.S.</th>
-        <th>P.P.</th>
-        <th>Sheep</th>
-        <th>Sofa</th>
-        <th>Train</th>
-        <th>TV</th>
+        <th colspan="2">A.P.</th>
+        <th colspan="2">Bike.</th>
+        <th colspan="2">Bird</th>
+        <th colspan="2">Boat</th>
+        <th colspan="2">Bottle</th>
+        <th colspan="2">Bus.</th>
+        <th colspan="2">Car</th>
+        <th colspan="2">Cat</th>
+        <th colspan="2">Chair</th>
+        <th colspan="2">Cow</th>
+        <th colspan="2">D.T.</th>
+        <th colspan="2">Dog</th>
+        <th colspan="2">Horse</th>
+        <th colspan="2">M.B.</th>
+        <th colspan="2">P.S.</th>
+        <th colspan="2">P.P.</th>
+        <th colspan="2">Sheep</th>
+        <th colspan="2">Sofa</th>
+        <th colspan="2">Train</th>
+        <th colspan="2">TV</th>
     </tr>
     <tr>
         <th> Metric</th>
+        <th>P</th>
+        <th>J</th>
+        <th>P</th>
+        <th>J</th>
+        <th>P</th>
+        <th>J</th>
+        <th>P</th>
+        <th>J</th>
+        <th>P</th>
+        <th>J</th>
+        <th>P</th>
+        <th>J</th>
+        <th>P</th>
+        <th>J</th>
+        <th>P</th>
+        <th>J</th>
+        <th>P</th>
+        <th>J</th>
+        <th>P</th>
+        <th>J</th>
+        <th>P</th>
+        <th>J</th>
+        <th>P</th>
+        <th>J</th>
+        <th>P</th>
+        <th>J</th>
+        <th>P</th>
+        <th>J</th>
+        <th>P</th>
+        <th>J</th>
+        <th>P</th>
+        <th>J</th>
+        <th>P</th>
+        <th>J</th>
         <th>P</th>
         <th>J</th>
         <th>P</th>
