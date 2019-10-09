@@ -203,3 +203,31 @@ Usage: python eval_vis_voc_group.py | eval_vis_internet_group.py | eval_vis_msrc
     </tr>
    
 </table>
+
+- internet
+<table>
+    <tr>
+        <th> Class</th>
+        <th colspan="2">Airplane</th>
+        <th colspan="2">Car</th>
+        <th colspan="2">Horse</th>
+    </tr>
+    <tr>
+        <th> Metric</th>
+        <th>P</th>
+        <th>J</th>
+        <th>P</th>
+        <th>J</th>
+        <th>P</th>
+        <th>J</th>
+    </tr>
+       <tr>
+        <th> MCANet</th>
+        <th>96.1</th>
+        <th>73.2</th>
+        <th>94.7</th>
+        <th>84.2</th>
+        <th>91.8</th>
+        <th>67.1</th>
+    </tr>
+   </table>
