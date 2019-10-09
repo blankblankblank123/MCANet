@@ -54,8 +54,10 @@ group 3:
 ## Evaluation
 Metric:
 - Jaccard
+
 Jaccard index reports the ratio of the intersection and union area between the segmented foreground objects and the ground truth.
 - Precision
+
 Precision measures the percentage of correctly segmented object and background pixels.
 ```
 Usage: python eval_vis_voc_group.py | eval_vis_internet_group.py | eval_vis_msrc_group.py
